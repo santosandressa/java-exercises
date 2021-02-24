@@ -16,9 +16,7 @@ public class tempoEvento {
 		segundos = evento * 3600;
 		horas = evento;
 		
-		String resultado = "A duração do evento é de: " + horas + " horas, ou " + minutos + " minutos, ou " + segundos +" segundos.";
-
-		System.out.println(resultado);
+		System.out.printf("A duração do evento é de: %d horas, %d minutos, e %d segundos.", horas,minutos,segundos);
 		
 	}
 

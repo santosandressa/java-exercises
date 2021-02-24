@@ -17,9 +17,8 @@ public class mediaPonderada {
 		nota3 = ler.nextDouble();
 		
 		media = ((nota1 * peso1) + ( nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso2 + peso3);
-		String resultado = "A sua média ponderada é de: " + media;
-		
-		System.out.println(resultado);
+
+		System.out.printf("A sua média ponderada é de: %f ",media);
 				
 	}
 	

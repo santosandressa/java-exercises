@@ -8,17 +8,17 @@ public class numeroPositivo {
 	
 		@SuppressWarnings("resource")
 		Scanner ler = new Scanner(System.in);
-		int numA, numB, numC, somaAb, somaBc;
+		double numA, numB, numC, somaAb, somaBc;
 		double r, s, d;
 		
 		System.out.println("Entre com o valor de A: ");
-		numA= ler.nextInt();
+		numA= ler.nextDouble();
 		
 		System.out.println("Entre com o valor de B: ");
-		numB= ler.nextInt();
+		numB= ler.nextDouble();
 		
 		System.out.println("Entre com o valor de C: ");
-		numC= ler.nextInt();
+		numC= ler.nextDouble();
 		
 		somaAb= numA + numB;
 		somaBc= numB + numC;
@@ -27,9 +27,8 @@ public class numeroPositivo {
 		
 		d = (r + s)/2;
 		
-		String resultado = "O resultado é: " + d;
 		
-		System.out.println(resultado);
+		System.out.printf("O resultado é: %f", d);
 	}
 
 }

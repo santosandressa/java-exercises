@@ -21,12 +21,10 @@ public class eqLinear {
 		System.out.println("Digite o coeficiente F ");
 		F = ler.nextDouble();
 		
-		x = ((C * E) - (B * F)) / (( A * E) - (B * D));
-		y = ((A * F) - (C * D) / ( A * E) - (B * D));
+		x = (C * E) - (B * F) / ( A * E) - (B * D);
+		y = (A * F) - (C * D) / ( A * E) - (B * D);
 		
-		String resultado = "O valor de x é: " + Math.ceil(x) + "\nO valor de y é : " + y;
-		
-		System.out.println(resultado);
+		System.out.printf("O valor de x é: %f \nO valor de y é : %f ",x,y);
 
 	}
 

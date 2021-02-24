@@ -19,15 +19,13 @@ public class doisPontos {
 		System.out.println("Qual é o primeiro valor de y?: ");
 		y1 = ler.nextDouble();
 	
-		System.out.println("Qual é o segundo valor de y2?: ");
+		System.out.println("Qual é o segundo valor de y?: ");
 		y2 = ler.nextDouble();
 		
 		potencia = Math.pow((x2 - x1),2) + Math.pow((y2 - y1), 2);
 		distancia = Math.sqrt(potencia);
 		
-		String resultado = 	"A distancia é de " + distancia;
-		
-		System.out.println(resultado);
+		System.out.printf("A distancia é de %f", distancia);
 	
 	}
 

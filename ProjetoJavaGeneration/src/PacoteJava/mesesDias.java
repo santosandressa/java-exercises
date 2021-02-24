@@ -17,8 +17,7 @@ public class mesesDias {
 		meses = (totalDias%365) / 30;
 		dias = (totalDias%365) % 30;
 
-		String resultado = " Você tem "+ anos + " anos," + meses + " meses e " + dias + " dias de vida";
-		System.out.println(resultado);
+		System.out.printf("Eu tenho %d anos, %d meses, e %d dias", anos,meses,dias);
 		
 	}
 
