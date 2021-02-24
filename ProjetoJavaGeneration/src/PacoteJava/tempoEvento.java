@@ -7,7 +7,7 @@ public class tempoEvento {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner ler = new Scanner(System.in);
-		int evento, horas, segundos, minutos, horario;
+		int evento, horas, segundos, minutos;
 		
 		System.out.println(" Qual o tempo de duração do evento em horas?: ");
 		evento = ler.nextInt();
