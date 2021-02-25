@@ -2,7 +2,7 @@ package PacoteJava;
 
 import java.util.Scanner;
 
-public class categoria {
+public class categoria2502 {
 
 	public static void main(String[] args) {
 	
