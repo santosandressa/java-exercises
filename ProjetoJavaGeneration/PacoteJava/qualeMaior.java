@@ -2,7 +2,7 @@ package PacoteJava;
 
 import java.util.Scanner;
 
-public class qualMaior {
+public class qualeMaior {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
