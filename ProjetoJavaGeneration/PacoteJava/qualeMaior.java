@@ -18,11 +18,13 @@ public class qualeMaior {
 		num3 = ler.nextInt();
 		
 		if(num1 > num2 && num1> num3) {
-			System.out.printf("Número: %d, é maior ", num1);
+			System.out.printf("Número: %d, é maior. ", num1);
 		} else if (num2 > num1 && num2 > num3) {
-			System.out.printf("Número: %d, é maior ", num2);
+			System.out.printf("Número: %d, é maior. ", num2);
 		} else if (num3 > num1 && num3 > num2){
-			System.out.printf("Número: %d, é maior ", num3);
+			System.out.printf("Número: %d, é maior. ", num3);
+		} else {
+			System.out.printf("Digite um número maior que 0. ");
 		}
 	}
 }
