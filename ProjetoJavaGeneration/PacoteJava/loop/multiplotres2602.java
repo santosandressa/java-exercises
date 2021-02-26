@@ -16,17 +16,27 @@ public class multiplotres2602 {
 		
 		
 		do {
-			if(num%3==0) {
+			
+			if(num!=0) 
+			{
+				if(num%3==0) {
 				soma = soma + num;
 				cont++;
+				}
 			}
-						
-			System.out.println("Digite um número");
-			num = leia.nextInt();
 				
 		}while(num != 0);
 		
-		System.out.printf("A média é: %f", media/cont);
+		if(cont==0){
+			System.out.printf("\nnão existe divisão por 0");
+		}else {
+			media= soma/cont;
+			System.out.printf("A média é: %f", media);
+		}
+		
+	
+		
+		
 	}		
 
 }
