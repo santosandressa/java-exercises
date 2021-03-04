@@ -51,6 +51,7 @@ public class TestePrograma {
 			empregado.setImposto(imposto);
 
 			empregado.calcularImposto();
+			empregado.exibirInfo();
 
 		}
 	}
